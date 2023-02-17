@@ -1,0 +1,205 @@
+.container
+//header
+    header
+        .header-inner
+            nav
+                ul
+                    (li > a)*7
+// welcome
+    section.welcome
+        .welcome-inner
+            .welcome-bg
+                img
+            .welcome-heading
+                span
+                h1
+                span
+        .mouse
+            span.wheele
+// ABOUT
+    section.about
+        .about-inner
+            .title-share
+                h2
+            .about-content
+                .about-left
+                    span.hello
+                    h3.name
+                    span.creative
+                    p.introduce
+                    p.yh
+                        ul
+                            li > span * 5
+                .about-right
+                    img
+// SKILL
+    section.skill
+        .skill-inner
+            .title-share
+                h2
+            .skill-content
+                .skill-left
+                    .html
+                        .html-left
+                            img
+                            span
+                        .html-right
+                            p
+                    .javascript
+                        .javascript-left
+                            img
+                            span
+                        .javascript-right
+                            p
+                .skill-right
+                    .css
+                        .css-left
+                            img
+                            span
+                        .css-right
+                            p
+                    .jquery
+                        .jquery-left
+                            img
+                            span
+                        .jquery-right
+                            p
+                .skill-under
+                    .responsive
+                        .responsive-left
+                            img
+                            span
+                        .responsive-right
+                            p
+                    .design
+                        .design-left
+                            img
+                            span
+                        .design-right
+                            p
+// PRACTICAL
+    section.practical
+        .practical-inner
+            .title-share
+                h2
+            .practical-content
+                .practical-login
+                    h4
+                    .practical-slider
+                        button.slick-prev
+                        .login-list
+                            .login-track
+                                .login-item * 4
+                        button.slick-next
+                .practical-accordion
+                    h4
+                    .practical-slider
+                        button.slick-prev
+                        .accordion-list
+                            .accordion-track
+                                .accordion-item * 4
+                        button.slick-next
+                .practical-hover
+                    h4
+                    .practical-slider
+                        button.slick-prev
+                        .hover-list
+                            .hover-track
+                                .hover-item * 4
+                        button.slick-next
+// PUBLISHING
+    section.publishing
+        .publishing-inner
+            .title-share
+                h2
+            .publishing-content
+                .publishing-btn
+                    input type="radio" name="tabmenu" id="tab1"
+                    input type="radio" name="tabmenu" id="tab2"
+                    input type="radio" name="tabmenu" id="tab3"
+                    input type="radio" name="tabmenu" id="tab4"
+                    .tab-btn
+                        label for="tab1"
+                            em
+                        label for="tab2"
+                            em
+                        label for="tab3"
+                            em
+                        label for="tab4"
+                            em
+                    .tabs
+                        .tab.tab1
+                        .tab.tab2
+                        .tab.tab3
+                        .tab.tab4
+                .siheung-left
+                    .pc-mockup
+                        img
+                        .siheung-pc
+                            img
+                    .tablet-mockup
+                        img
+                        .siheung-tablet
+                            img
+                    .mobile-mockup
+                        img
+                        .siheung-mobile
+                            img
+                .siheung-right
+                    .siheung-detail
+                        h3
+                        p
+                        ul
+                            li * 4
+                        .siheung-detail2
+                            ul
+                                li > a * 4
+// CLONE
+    section.clone
+        .clone-inner
+            .title-share
+                h2
+            .clone-content
+                .clone-info
+                    h3
+                    p
+                    ul
+                        li * 4
+                .clone-chrome
+                    img
+                    h3
+                    ul
+                        li > a * 2
+                .clone-netflex
+                    img
+                    h3
+                    ul
+                        li > a * 2
+                .clone-apple
+                    img
+                    h3
+                    ul
+                        li > a * 2
+// MOBILE 미완성
+    section.mobile
+        .mobile-inner
+            .title-share
+                h2
+            .mobile-content
+                .mobile-left
+                .mobile-right
+// EPILOGUE
+    section.epilogue
+        .epilogue-inner
+            .title-share
+                h2
+            .epilogue-content
+                h3
+                p
+                h3
+                    span * 4
+// FOOTER
+    footer
+        .footer-inner
+            ul
+                li > span * 3
