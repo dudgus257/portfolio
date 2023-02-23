@@ -52,7 +52,7 @@ header {
     /* display:none */
 }
 footer {
-    display:none
+    /* display:none */
 }
 
 /* 공통 CSS */
@@ -916,9 +916,76 @@ input[id=web-tab4]:checked ~ .web-tabs .web-tab:nth-child(4) {
 /* EPILOGUE */
 .epilogue-inner{
     width: 1300px;
-    margin:auto
+    margin:auto;
+    margin-bottom:100px
 }
 .epilogue-content{
     width: 1230px;
     margin:auto
+}
+.epilogue-content h3{
+    font-family: 'GmarketSansMedium';
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom:30px
+}
+.epilogue-content h3 span{
+    font-size: 35px;
+}
+.epilogue-content p {
+    font-size: 18px;
+    font-family: 'GmarketSansMedium';
+}
+.epilogue-content h4{
+    font-size: 25px;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+}
+.epilogue-content h4 span{
+    font-size: 35px;
+}
+.orange{
+    color:orange
+}
+.green{
+    color:#4bcb7b
+}
+.red{
+    color:red
+}
+.purple{
+    color:#8972f0
+}
+/* FOOTER */
+footer{
+    background-color:#000;
+    color:#fff;
+    width: 100%;
+    text-align:right
+}
+.footer-inner{
+    width: 1300px;
+    margin:auto
+}
+.footer-content{
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 1230px;
+    margin:auto;
+    text-align:center;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+    padding:20px 0;
+    text-align:left;
+    font-size: 15px;
+}
+.footer-left{
+    margin-right:30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.footer-right a{
+    color:#fff;
+    text-decoration: none !important
 }
