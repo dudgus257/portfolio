@@ -5,7 +5,7 @@
     const slideBtnPrev = document.querySelector('.slide_btn_prev'); // prev button
     const pagination = document.querySelector('.slide_pagination');
     const slideLen = slideContents.length;  // slide length
-    const slideWidth = 300; // slide width
+    const slideWidth = 330; // slide width
     const slideSpeed = 300; // slide speed
     const startNum = 0; // initial slide index (0 ~ 4)
     
@@ -97,3 +97,13 @@
       });
     });
   })();
+// $(function(){
+//   $('.fullpage-works').slick({
+//     speed: 500,
+//     cssEase: 'linear',
+//     infinite: true,
+//     slidesToScroll: 1,
+//     centerMode: true,
+//     dots: true,
+//   });
+// })

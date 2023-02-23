@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="./css/responsive.css">
+    <!-- Featherlight -->
+    <link rel="stylesheet" href="./js/featherlight/featherlight.css">
 </head>
 <body>
     <div class="container">
@@ -260,273 +262,155 @@
                         <button type="button" class="slide_btn_prev">Prev</button>
                         <button type="button" class="slide_btn_next">Next</button>
                     </div>
-                    <ul class="slide_pagination">1</ul>
+                    <ul class="slide_pagination"></ul>
                 </div>
             </div>
         </section>
         <!-- PUBLISHING -->
-        <section class="publishing">
-            <div class="publishing-inner">
+        <section class="website">
+            <div class="website-inner">
                 <div class="title-share">
-                    <h2></h2>
+                    <h2>Website Publishing</h2>
                 </div>
-                <div class="publishing-content">
-                    <div class="publishing-btn">
-                        <input type="radio" name="tabmenu" id="tab1">
-                        <input type="radio" name="tabmenu" id="tab2">
-                        <input type="radio" name="tabmenu" id="tab3">
-                        <input type="radio" name="tabmenu" id="tab4">
-                        <div class="tab-btn">
-                            <label for="tab1">
-                                SIHEUNG
-                                <em></em>
-                            </label>
-                            <label for="tab2">
-                                The
-                                <br>
-                                Health Care
-                                <em></em>
-                            </label>
-                            <label for="tab3">
-                                CONVERSE
-                                <em></em>
-                            </label>
-                            <label for="tab4">
-                                제작중...
-                                <em></em>
-                            </label>
+                <div class="content-inner">
+                    <input type="radio" name="weblist" id="web-tab1" checked>
+                    <input type="radio" name="weblist" id="web-tab2">
+                    <input type="radio" name="weblist" id="web-tab3">
+                    <input type="radio" name="weblist" id="web-tab4">
+                    <div class="web-tab-btn">
+                        <label for="web-tab1">portfolio</label>
+                        <label for="web-tab2">siheung</label>
+                        <label for="web-tab3">healthcare</label>
+                        <label for="web-tab4">converse</label>
+                    </div>
+
+                    <div class="web-tabs">
+                        <div class="web-tab">
+                            <div class="tab-inner">
+                                <div class="web-photo">
+                                    <img src="./images/portfolio.png">
+                                </div>
+                                <div class="tab-info">
+                                    <h3>portfolio</h3>
+                                    <p>
+                                        깔끔한 느낌을 주기 위해 화이트 컬러를 베이스로 제작하였으며, 프로젝트를 보다 쉽게 볼 수 있도록 제작하였습니다.
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            사용스킬 : HTML, CSS, JavaScript, jQuery
+                                        </li>
+                                        <li>
+                                            레이아웃 방식 : Flex 기반의 반응형 웹 레이아웃
+                                        </li>
+                                        <li>
+                                            제작 참여도 : 100%
+                                        </li>
+                                        <li>
+                                            참고 사항<br>- 순수 CSS로 Tab-menu 제작.<br>- 순수 javascript로 슬라이드 구현.
+                                        </li>
+                                    </ul>
+                                    <div class="result-buttons">
+                                        <a class="btn" href="" data-featherlight="iframe">PC</a>
+                                        <a class="btn mobile-btn" href="" data-featherlight="iframe">Mobile</a>
+                                        <a class="btn ppt" href="" data-featherlight="iframe">PPT</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="tabs">
-                            <div class="tab tab1">
-                                <div class="siheung-content">
-                                    <div class="siheung-left">
-                                        <div class="pc-mockup">
-                                            <img src="./images/pc-mockup.avif" alt="pc-mockup">
-                                            <div class="siheung-pc">
-                                                <img src="" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="tablet-mockup">
-                                            <img src="./images/tablet.png" alt="">
-                                            <div class="siheung-tablet">
-                                                <img src="" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="mobile-mockup">
-                                            <img src="./images/mobile-mockup.avif" alt="">
-                                            <div class="siheung-mobile">
-                                                <img src="" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="siheung-right">
-                                        <div class="siheung-detail">
-                                            <h3>SIHEUNG</h3>
-                                            <em></em>
-                                            <p>
-                                                신발 브랜드 CONVERSE 리뉴얼.
-                                                <br>
-                                                COVER페이지 제작.
-                                                <br>
-                                                콜라보 제품을 강조하기 위해 영상 첨부.
-                                            </p>
-                                            <ul>
-                                                <li>
-                                                    작업기간 : 10일
-                                                </li>
-                                                <li>
-                                                    작업방식 : HTML + CSS + JAVASCRIPT + JQUERY
-                                                </li>
-                                                <li>
-                                                    플러그인 : SLICK SLIDER
-                                                </li>
-                                                <li>
-                                                    제작 참여율 : 100%
-                                                </li>
-                                            </ul>
-                                            <div class="siheung-detail2">
-                                                <ul>
-                                                    <li><a href="#none">pc</a></li>
-                                                    <li><a href="#none">tablet</a></li>
-                                                    <li><a href="#none">mobile</a></li>
-                                                    <li><a href="#none">ppt</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                        <div class="web-tab">
+                            <div class="tab-inner">
+                                <div class="web-photo">
+                                    <img src="./images/siheung_main.jpg">
+                                </div>
+                                <div class="tab-info">
+                                    <h3>siheung</h3>
+                                    <p>
+                                        깔끔한 느낌을 주기 위해 화이트 컬러를 베이스로 제작하였으며, 프로젝트를 보다 쉽게 볼 수 있도록 제작하였습니다.
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            사용스킬 : HTML, CSS, JavaScript, jQuery
+                                        </li>
+                                        <li>
+                                            레이아웃 방식 : Flex 기반의 반응형 웹 레이아웃
+                                        </li>
+                                        <li>
+                                            제작 참여도 : 100%
+                                        </li>
+                                        <li>
+                                            참고 사항 : 순수 CSS로 Tab-menu 제작, 순수 javascript로 슬라이드 구현. 반응형.
+                                        </li>
+                                    </ul>
+                                    <div class="result-buttons">
+                                        <a class="btn" href="" data-featherlight="iframe">PC</a>
+                                        <a class="btn mobile-btn" href="" data-featherlight="iframe">Mobile</a>
+                                        <a class="btn ppt" href="" data-featherlight="iframe">PPT</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab tab2">
-                                <div class="healthcare-content">
-                                    <div class="healthcare-left">
-                                        <div class="pc-mockup">
-                                            <img src="./images/pc-mockup.avif" alt="pc-mockup">
-                                            <div class="healthcare-pc">
-                                                <img src="" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="mobile-mockup">
-                                            <img src="./images/mobile-mockup.avif" alt="">
-                                            <div class="healthcare-mobile">
-                                                <img src="" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="healthcare-right">
-                                        <div class="healthcare-detail">
-                                            <h3>
-                                                The
-                                                <br>
-                                                Health Care
-                                            </h3>
-                                            <em></em>
-                                            <p>
-                                                신발 브랜드 CONVERSE 리뉴얼.
-                                                <br>
-                                                COVER페이지 제작.
-                                                <br>
-                                                콜라보 제품을 강조하기 위해 영상 첨부.
-                                            </p>
-                                            <ul>
-                                                <li>
-                                                    작업기간 : 10일
-                                                </li>
-                                                <li>
-                                                    작업방식 : HTML + CSS + JAVASCRIPT + JQUERY
-                                                </li>
-                                                <li>
-                                                    플러그인 : SLICK SLIDER
-                                                </li>
-                                                <li>
-                                                    제작 참여율 : 100%
-                                                </li>
-                                            </ul>
-                                            <div class="healthcare-detail2">
-                                                <ul>
-                                                    <li><a href="#none">pc</a></li>
-                                                    <li><a href="#none">mobile</a></li>
-                                                    <li><a href="#none">ppt</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                        </div>
+                        <div class="web-tab">
+                            <div class="tab-inner">
+                                <div class="web-photo">
+                                    <img src="./images/portfolio.png">
+                                </div>
+                                <div class="tab-info">
+                                    <h3>healthcare</h3>
+                                    <p>
+                                        [아주 작은 습관의 힘]이라는 책 내용 중에 "성공은 일상적인 습관의 결과다."라는 글귀가 있습니다.
+                                        아주 사소한 1%의 습관이라도 평생 쌓여 모인다면 이는 내가 어떤 사람이 되어 있을지, 어떤 사람이 될 수 있을 지의 차이를 결정하게 될 것입니다.
+                                        건강한 1%를 채워줄 수 있는 웹사이트를 만들고자 HealthCare라는 웹사이트를 기획하게 되었습니다.
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            사용스킬 : HTML, CSS, JavaScript, jQuery
+                                        </li>
+                                        <li>
+                                            레이아웃 방식 : Flex 기반의 반응형 웹 레이아웃
+                                        </li>
+                                        <li>
+                                            제작 참여도 : 100%
+                                        </li>
+                                        <li>
+                                            참고 사항 : 순수 CSS로 Tab-menu 제작.<br> 순수 javascript로 슬라이드 구현.<br> 반응형.
+                                        </li>
+                                    </ul>
+                                    <div class="result-buttons">
+                                        <a class="btn" href="" data-featherlight="iframe">PC</a>
+                                        <a class="btn mobile-btn" href="" data-featherlight="iframe">Mobile</a>
+                                        <a class="btn ppt" href="" data-featherlight="iframe">PPT</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab tab3">
-                                <div class="converse-content">
-                                    <div class="converse-left">
-                                        <div class="pc-mockup">
-                                            <img src="./images/pc-mockup.avif" alt="pc-mockup">
-                                            <div class="converse-pc">
-                                                <img src="" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="tablet-mockup">
-                                            <img src="./images/tablet.png" alt="">
-                                            <div class="converse-tablet">
-                                                <img src="" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="mobile-mockup">
-                                            <img src="./images/mobile-mockup.avif" alt="">
-                                            <div class="converse-mobile">
-                                                <img src="" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="converse-right">
-                                        <div class="converse-detail">
-                                            <h3>CONVERSE</h3>
-                                            <em></em>
-                                            <p>
-                                                신발 브랜드 CONVERSE 리뉴얼.
-                                                <br>
-                                                COVER페이지 제작.
-                                                <br>
-                                                콜라보 제품을 강조하기 위해 영상 첨부.
-                                            </p>
-                                            <ul>
-                                                <li>
-                                                    작업기간 : 10일
-                                                </li>
-                                                <li>
-                                                    작업방식 : HTML + CSS + JAVASCRIPT + JQUERY
-                                                </li>
-                                                <li>
-                                                    플러그인 : SLICK SLIDER
-                                                </li>
-                                                <li>
-                                                    제작 참여율 : 100%
-                                                </li>
-                                            </ul>
-                                            <div class="converse-detail2">
-                                                <ul>
-                                                    <li><a href="#none">pc</a></li>
-                                                    <li><a href="#none">tablet</a></li>
-                                                    <li><a href="#none">mobile</a></li>
-                                                    <li><a href="#none">ppt</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
+                        </div>
+                        <div class="web-tab">
+                            <div class="tab-inner">
+                                <div class="web-photo">
+                                    <img src="./images/portfolio.png">
                                 </div>
-                            </div>
-                            <div class="tab tab4">
-                                <div class="ikea-content">
-                                    <div class="ikea-left">
-                                        <div class="pc-mockup">
-                                            <img src="./images/pc-mockup.avif" alt="pc-mockup">
-                                            <div class="ikea-pc">
-                                                <img src="" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="tablet-mockup">
-                                            <img src="./images/tablet.png" alt="">
-                                            <div class="ikea-tablet">
-                                                <img src="" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="mobile-mockup">
-                                            <img src="./images/mobile-mockup.avif" alt="">
-                                            <div class="ikea-mobile">
-                                                <img src="" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ikea-right">
-                                        <div class="ikea-detail">
-                                            <h3>IKEA</h3>
-                                            <em></em>
-                                            <p>
-                                                신발 브랜드 CONVERSE 리뉴얼.
-                                                <br>
-                                                COVER페이지 제작.
-                                                <br>
-                                                콜라보 제품을 강조하기 위해 영상 첨부.
-                                            </p>
-                                            <ul>
-                                                <li>
-                                                    작업기간 : 10일
-                                                </li>
-                                                <li>
-                                                    작업방식 : HTML + CSS + JAVASCRIPT + JQUERY
-                                                </li>
-                                                <li>
-                                                    플러그인 : SLICK SLIDER
-                                                </li>
-                                                <li>
-                                                    제작 참여율 : 100%
-                                                </li>
-                                            </ul>
-                                            <div class="ikea-detail2">
-                                                <ul>
-                                                    <li><a href="#none">pc</a></li>
-                                                    <li><a href="#none">tablet</a></li>
-                                                    <li><a href="#none">mobile</a></li>
-                                                    <li><a href="#none">ppt</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                                <div class="tab-info">
+                                    <h3>converse</h3>
+                                    <p>
+                                        깔끔한 느낌을 주기 위해 화이트 컬러를 베이스로 제작하였으며, 프로젝트를 보다 쉽게 볼 수 있도록 제작하였습니다.
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            사용스킬 : HTML, CSS, JavaScript, jQuery
+                                        </li>
+                                        <li>
+                                            레이아웃 방식 : Flex 기반의 반응형 웹 레이아웃
+                                        </li>
+                                        <li>
+                                            제작 참여도 : 100%
+                                        </li>
+                                        <li>
+                                            참고 사항 : 순수 CSS로 Tab-menu 제작, 순수 javascript로 슬라이드 구현. 반응형.
+                                        </li>
+                                    </ul>
+                                    <div class="result-buttons">
+                                        <a class="btn" href="" data-featherlight="iframe">PC</a>
+                                        <a class="btn mobile-btn" href="" data-featherlight="iframe">Mobile</a>
+                                        <a class="btn ppt" href="" data-featherlight="iframe">PPT</a>
                                     </div>
                                 </div>
                             </div>
@@ -539,55 +423,110 @@
         <section class="clone">
             <div class="clone-inner">
                 <div class="title-share">
-                    <h2></h2>
+                    <h2>CLONE</h2>
                 </div>
                 <div class="clone-content">
                     <div class="clone-info">
-                        <h3></h3>
-                        <p></p>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
+                        <h3>CLONE CODING</h3>
+                        <br>
+                        <p>
+                            퍼블리싱의 기본기에 집중하였으며,<br>기존의 웹사이트와 최대한 차이점이 없도록 제작하였습니다.<br><br>
+                            모든 퍼블리싱은 하드코딩으로 제작하였고,<br>미디어쿼리를 이용하여 pc와 mobile에서 작동하도록 제작하였습니다.
+                        </p>
+                        <br>
+                        <div class="clone-info-under">
+                            <div class="clone-info-left">
+                                <ul>
+                                    <li>제작 범위</li>
+                                    <li>제작 방식</li>
+                                    <li>제작 참여율</li>
+                                    <li>레이아웃</li>
+                                </ul>
+                            </div>
+                            <div class="clone-info-right">
+                                <ul>
+                                    <li>퍼블리싱</li>
+                                    <li>HTML+CSS+JQUERY</li>
+                                    <li>100%</li>
+                                    <li>Float&Position&Flex</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <div class="clone-chrome">
-                        <img src="" alt="">
+                        <div class="clone-photo">
+                            <img src="./images/portfolio.png" alt="">
+                        </div>
                         <h3>CHROME</h3>
-                        <ul>
-                            <li><a href="#none">PC</a></li>
-                            <li><a href="#none">MOBILE</a></li>
-                        </ul>
+                        <div class="clone-buttons">
+                            <a class="btn" href="" data-featherlight="iframe">PC</a>
+                            <a class="btn mobile-btn" href="" data-featherlight="iframe">Mobile</a>
+                        </div>
                     </div>
                     <div class="clone-netflex">
-                        <img src="" alt="">
+                        <div class="clone-photo">
+                            <img src="./images/portfolio.png" alt="">
+                        </div>
                         <h3>NETFLEX</h3>
-                        <ul>
-                            <li><a href="#none">PC</a></li>
-                            <li><a href="#none">MOBILE</a></li>
-                        </ul>
+                        <div class="clone-buttons">
+                            <a class="btn" href="" data-featherlight="iframe">PC</a>
+                            <a class="btn mobile-btn" href="" data-featherlight="iframe">Mobile</a>
+                        </div>
                     </div>
                     <div class="clone-apple">
-                        <img src="" alt="">
+                        <div class="clone-photo">
+                            <img src="./images/portfolio.png" alt="">
+                        </div>
                         <h3>APPLE</h3>
-                        <ul>
-                            <li><a href="#none">PC</a></li>
-                            <li><a href="#none">MOBILE</a></li>
-                        </ul>
+                        <div class="clone-buttons">
+                            <a class="btn" href="" data-featherlight="iframe">PC</a>
+                            <a class="btn mobile-btn" href="" data-featherlight="iframe">Mobile</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- MOBILE -->
         <section class="mobile">
-            <div class="mobile-inner">
-                <div class="title-share">
-                    <h2></h2>
-                </div>
-                <div class="mobile-content">
-                    <div class="mobile-left"></div>
-                    <div class="mobile-right"></div>
+            <div class="title-share">
+                <h2>MOBILE</h2>
+            </div>
+            <div class="mobile-container">
+                <div class="mobile-inner">
+                    <div class="mobile-content">
+                        <div class="mobile-left">
+                            <img src="./images/mobile-section-back.png">
+                        </div>
+                        <div class="mobile-right">
+                            <h3>OYYI</h3>
+                            <h4>OVERVIEW</h4>
+                            <p>
+                                홈 카페 문화를 증가시킬 수 있도록 캡슐커피, 만두 너무 배부르다. 사이다가 답이다. 하지만 사이다는 몸에 좋지 않다. 그렇기 때문에 나는 매일 운동을 한다. 유산소로 독소를 빼주면 피부가 좋아진다. 근력운동도 꾸준히 해줘야한다.
+                            </p>
+                            <br>
+                            <div class="mobile-under">
+                                <div class="mobile-under-left">
+                                    <ul>
+                                        <li>제작기간</li>
+                                        <li>제작방식</li>
+                                        <li>참여도</li>
+                                        <li>레이아웃</li>
+                                    </ul>
+                                </div>
+                                <div class="mobile-under-right">
+                                    <ul>
+                                        <li>3일</li>
+                                        <li>HTML + CSS + JQuery</li>
+                                        <li>100%</li>
+                                        <li>Float&Position&Flex</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mobile-buttons">
+                                <a class="btn" href="" data-featherlight="iframe">VIEW</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -648,5 +587,7 @@
     <script src="./js/slick/slick.min.js"></script>
     <!-- WOW -->
     <script src="./js/wow.min.js"></script>
+    <!-- FeatherLight.js -->
+    <script src="./js/featherlight/featherlight.js"></script>
 </body>
 </html>
