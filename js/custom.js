@@ -97,13 +97,14 @@
       });
     });
   })();
-// $(function(){
-//   $('.fullpage-works').slick({
-//     speed: 500,
-//     cssEase: 'linear',
-//     infinite: true,
-//     slidesToScroll: 1,
-//     centerMode: true,
-//     dots: true,
-//   });
-// })
+// Header & top-btn
+$(function(){
+  $(window).scroll(function(){
+    if($(window).scrollTop() > 100) {
+      $('header, .btn-top').addClass('active')
+    }
+    else {
+      $('header, .btn-top').removeClass('active')
+    }
+  })
+})
