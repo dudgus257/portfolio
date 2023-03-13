@@ -972,31 +972,48 @@ input[id=web-tab4]:checked ~ .web-tabs .web-tab:nth-child(4) {
 .epilogue-inner{
     width: 1300px;
     margin:auto;
-    margin-bottom:100px
+    margin-bottom:100px;
 }
 .epilogue-content{
     width: 1230px;
-    margin:auto
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
 }
-.epilogue-content h3{
+.epilogue-left{
+    width: 45%;
+}
+.epilogue-left img{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(200, 200, 200);
+}
+.epilogue-right{
+    width: 45%;
+}
+.epilogue-right h3{
     font-family: 'GmarketSansMedium';
     font-size: 25px;
     font-weight: bold;
-    padding-bottom:30px
+    padding-bottom:30px;
+    line-height:50px
 }
-.epilogue-content h3 span{
+.epilogue-right h3 span{
     font-size: 35px;
 }
-.epilogue-content p {
+.epilogue-right p {
     font-size: 18px;
     font-family: 'GmarketSansMedium';
+    line-height:30px
 }
-.epilogue-content h4{
+.epilogue-right h4{
     font-size: 25px;
     font-family: 'GmarketSansMedium';
     font-weight: bold;
+    line-height:50px
 }
-.epilogue-content h4 span{
+.epilogue-right h4 span{
     font-size: 35px;
 }
 .orange{
