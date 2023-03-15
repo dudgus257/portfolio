@@ -1,6 +1,9 @@
 /* CDN */
+/* Fontawesome 4.7 */
+/* @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); */
+
 /* XEICON CDN */
-/* @import url("http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"); */
+@import url("https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css");
 
 /* FONT CDN */
 /* Source+Sans+Pro */
@@ -39,7 +42,7 @@ header {
 .practical {
     /* display:none */
 }
-.publishing {
+.website {
     /* display:none */
 }
 .clone {
@@ -778,6 +781,12 @@ input[id=web-tab4]:checked ~ .web-tabs .web-tab:nth-child(4) {
     width: 1300px;
     margin:auto;
 }
+.clone-info-wrap h3{
+    font-size: 30px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom:30px
+}
 .clone-content{
     width: 1230px;
     margin:auto;
@@ -786,14 +795,12 @@ input[id=web-tab4]:checked ~ .web-tabs .web-tab:nth-child(4) {
     flex-wrap:wrap;
     justify-content: space-between;
 }
-.clone-info{
+.clone-info-wrap{
     width: 24%;
     padding:10px 0;
 }
-.clone-info h3{
-    font-size: 30px;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-weight: bold;
+.clone-info{
+    width: 100%;
 }
 .clone-info p{
     width: 90%;
@@ -815,14 +822,15 @@ input[id=web-tab4]:checked ~ .web-tabs .web-tab:nth-child(4) {
     font-size: 15px;
 }
 /* CLONE-CHROME */
-.clone-chrome{
-    width: 24%;
+.clone-page{
+    display:flex;
+    width: 75%;
 }
-.clone-netflex{
-    width: 24%;
-}
+.clone-chrome,
+.clone-netflex,
 .clone-nike{
-    width: 24%;
+    width: 33%;
+    padding:10px
 }
 /* CLONE PHOTO */
 .clone-photo{
@@ -858,7 +866,6 @@ input[id=web-tab4]:checked ~ .web-tabs .web-tab:nth-child(4) {
     flex-direction: row;
     width: 200px;
     margin:auto;
-    /* border:1px solid red */
 }
 .clone-buttons .btn{
     font-family: 'Kumbh Sans', sans-serif;
@@ -997,7 +1004,7 @@ input[id=web-tab4]:checked ~ .web-tabs .web-tab:nth-child(4) {
     font-size: 25px;
     font-weight: bold;
     padding-bottom:30px;
-    line-height:50px
+    line-height:40px
 }
 .epilogue-right h3 span{
     font-size: 35px;
@@ -1005,13 +1012,13 @@ input[id=web-tab4]:checked ~ .web-tabs .web-tab:nth-child(4) {
 .epilogue-right p {
     font-size: 18px;
     font-family: 'GmarketSansMedium';
-    line-height:30px
+    line-height:25px
 }
 .epilogue-right h4{
     font-size: 25px;
     font-family: 'GmarketSansMedium';
     font-weight: bold;
-    line-height:50px
+    line-height:40px
 }
 .epilogue-right h4 span{
     font-size: 35px;

@@ -107,4 +107,13 @@ $(function(){
       $('header, .btn-top').removeClass('active')
     }
   })
+  // Header Trigger
+  $('.trigger').click(function(){
+    $(this).toggleClass('active')
+    $('nav').toggleClass('active')
+})
+$('nav a, section').click(function(){
+    $('nav, .trigger').removeClass('active')
+    
+})
 })
