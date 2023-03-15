@@ -202,7 +202,12 @@
     }
     .web-tab-btn label{
         margin-right:20px;
-        margin-bottom:50px
+        margin-bottom:50px;
+        border:1px solid #000;
+        border-radius: 10px;
+        width: 150px;
+        text-align:center;
+        box-shadow : 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
     }
     .web-tabs{
         width: 100%;
@@ -546,7 +551,12 @@
     .web-tab-btn label{
         margin-right:10px;
         margin-bottom:5px;
-        font-size: 15px;
+        font-size: 18px;
+        border:1px solid #000;
+        border-radius: 10px;
+        width: 150px;
+        text-align:center;
+        box-shadow : 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
     }
     .web-tabs{
         width: 100%;
