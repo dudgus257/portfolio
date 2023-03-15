@@ -181,7 +181,7 @@
         font-size: 15px;
     }
     .slide_btn_box > button {
-        width: 60px;
+        width: 70px;
         height: 30px;
     }
     /* WEBSITE */
@@ -267,6 +267,7 @@
     }
     .mobile-content{
         width: 100%;
+        padding:30px 0;
     }
     /* EPILOGUE */
     .epilogue-inner{
@@ -522,7 +523,7 @@
         font-size: 15px;
     }
     .slide_btn_box > button {
-        width: 60px;
+        width: 70px;
         height: 30px;
     }
     /* WEBSITE */
@@ -539,11 +540,12 @@
     }
     .web-tab-btn{
         display:flex;
-        flex-direction: row;
+        flex-direction: column;
+        margin-bottom:30px
     }
     .web-tab-btn label{
         margin-right:10px;
-        margin-bottom:50px;
+        margin-bottom:5px;
         font-size: 15px;
     }
     .web-tabs{
